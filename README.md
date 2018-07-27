@@ -1,5 +1,7 @@
 # SSL-Data-Sniffing
-Simple tweak code to sniff SSL data, builds via clang since Theos wouldn't build it and I was too lazy to fix that.Note that this tweak does not work on iOS 10.
+Simple tweak code to sniff SSL data, builds via clang since Theos wouldn't build it and I was too lazy to fix that.
+
+# Note that this tweak only works on iOS 9.
 
 ### How to Use
 Install the dylib and plist to /Library/MobileSubstrate/DynamicLibraries or use the install script. Install [deviceconsole](https://github.com/rpetrich/deviceconsole) (can use `brew install hbang/repo/deviceconsole --HEAD`). Run `deviceconsole` in console and read the SSLWrite/SSLRead outputs with blue highlighted "DEBUG".
